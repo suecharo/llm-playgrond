@@ -37,7 +37,7 @@ You can choose a suitable pipeline from a list provided here: https://huggingfac
 
 ## Code Snippets
 
-[./fill_mask](./fill_mask)
+[./fill_mask.py](./fill_mask.py)
 
 ```bash
 $ python3 fill_mask.py
