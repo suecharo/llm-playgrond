@@ -29,6 +29,8 @@ Use the following URL format to make specific queries:
 
 https://huggingface.co/models?pipeline_tag=fill-mask&sort=downloads&search=bio
 
+<img width="800" src="https://github.com/suecharo/llm-playgrond/assets/26019402/05ba1297-966a-4360-8c79-6d00986d66bd">
+
 ## Selecting a Pipeline
 
 You can choose a suitable pipeline from a list provided here: https://huggingface.co/tasks.
