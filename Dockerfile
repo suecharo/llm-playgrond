@@ -11,7 +11,10 @@ RUN apt update && \
     rm -rf /var/lib/apt/lists/*
 
 RUN python3 -m pip install --no-cache-dir --progress-bar off -U pip setuptools wheel && \
-    python3 -m pip install --no-cache-dir --progress-bar off transformers[torch] transformers[tf-cpu] transformers[flax]
+    python3 -m pip install --no-cache-dir --progress-bar off transformers[torch]
+
+# RUN python3 -m pip install --no-cache-dir --progress-bar off -U pip setuptools wheel && \
+#     python3 -m pip install --no-cache-dir --progress-bar off transformers[torch] transformers[tf-cpu] transformers[flax]
 
 # ignore warnings
 ENV TF_CPP_MIN_LOG_LEVEL=3
